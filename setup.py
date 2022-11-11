@@ -43,7 +43,7 @@ that could potentially be improved'),
     zip_safe=False,
     install_requires=[
         'pyyaml>5.4',
-        'aws-sam-translator @ https://github.com/cfculhane/serverless-application-model.git@bd65a6b0c31fefe681fd0e70fe02c9a3edc4898b#egg=aws-sam-translator',
+        'aws-sam-translator @ git+https://github.com/cfculhane/serverless-application-model.git@bd65a6b0c31fefe681fd0e70fe02c9a3edc4898b#egg=aws-sam-translator',
         'jsonpatch',
         'jsonschema~=4.0',
         'importlib_resources>=1.4,<4;python_version<"3.7"',
